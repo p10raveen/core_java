@@ -11,5 +11,11 @@ String
 IQ. Difference b/w String literal and new Keyword
 
 6. Methods of String class
-Example-1. boolean equals()
+Example-1. boolean equals() and ==
 Example-2. int length()
+Example-3: boolean isEmpty()
+Example-4: char charAt()
+Example-5: boolean equals() and boolean equalsIgnoreCase()
+Example-6: int compareTo() and int compareToIgnoreCase()
+Example-7: String substring()
+Example-8 and 9: String[] split()
