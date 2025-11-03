@@ -1,0 +1,67 @@
+Object Oriented Programming (MCQ + Coding + Interview) ********
+---------------------------
+1. Java is a class based language.
+2. Java class consist 5 elements:
+    1. Variables
+    2. Methods
+    3. Constructors
+    4. BLocks
+    5. Inner Class (Nested Class)
+
+Example:
+    class <class-name>
+    {
+        1. Variables
+        2. Methods
+        3. Constructors
+        4. BLocks
+        5. Inner Class (Nested Class)
+    }
+
+3. Variables
+a. Variables are used to store data/value.
+Example:
+    int rollno = 101;
+    where 'rollno' is a variable that stores 101 (data/value/constant).
+
+b. There are 3 types of variables in java.
+    * Local Variables
+        |- LV are define inside the M/C/B.
+        |- Calling of LV depend on: When M/C/B call
+        |- Memory Allocation: Stack
+    * Instance Variables
+        |- IV are define inside the class but outside the M/C/B.
+        |- Calling of IV depend on: object
+        |- Memory Allocation: Heap
+        |- How many times memory will create: depend upon no. of object, if we have
+           3 object of a class then 3 time memory will create for single IV.
+    * Static Variable
+        |- SV are define inside the class but outside the M/C/B with prefix 'static'.
+        |- Calling of SV depend on: class
+        |- Memory Allocation: Non-Heap
+        |- How many times memory will create: one time.
+
+c. Example:
+    Program1.java
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
