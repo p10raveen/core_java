@@ -1,0 +1,63 @@
+Recursion **********
+---------
+1. Method calling itself directly or indirectly.
+2. Types of Recursion
+         |- Indirect Recursion
+            A() ---> B() ---> C() ----> A()
+        *|- Direct Recursion
+                |- Tail Recursion
+                |- Head Recursion
+                |- Tree Recursion
+                |- Nested Recursion
+3. If we stop the recursive calling,so we can use base condition
+
+Tail Recursion
+--------------
+1. If a recursive calling statement is the last statement in the method, so we can
+   say that Tail recursion.
+2. Approach: Top-Down Approach
+Example:
+    Program1
+
+Head Recursion
+---------------
+1. If a recursive calling statement is the first statement in the method, so we can
+      say that Head recursion.
+2. Approach: Bottom-Up Approach
+Example:
+    Program2
+
+Tree Recursion
+---------------
+1. If there are more than one recursive calling statement in the method, so we can say
+that Tree Recursion.
+2. Approach: Tree
+Example:
+    Program3
+
+Nested Recursion
+-----------------
+1. Recursive calling statement inside the argument of recursive calling statement.
+
+Example:
+    Program6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

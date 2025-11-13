@@ -45,6 +45,135 @@ c. Example:
     Program1.java
 
 
+4. Methods
+a. Methods are used to write the logics of the program.
+a1. Unit testing apply on methods only.
+b. There are two types of methods
+    |- Instance Methods or Non-static Methods
+    |- Static Methods
+
+Examples:
+    Program2
+
+Calling Rules
+-------------
+1. Instance methods ---Directly---> Instance methods/variables.
+2. Static methods ---Object---> Instance methods/variables.
+3. Instance methods ---Classname---> Static methods/variables
+4. Static methods ---Classname---> Static methods/variables
+
+Examples:
+    Program3
+
+Q. How to create object of a class
+A. There are 4 ways
+        |- Named Object
+        |- Nameless Object
+        |- Instance Factory Method (later)
+        |- Static Factory Method   (later)
+-------------------------------
+        |- Named Object
+        Syntax:
+            class-name obj-name = new constructor-name();
+        Example:
+            Program4 obj1 = new Program4();
+
+        |- Nameless Object
+        Syntax:
+             new constructor-name();
+        Example:
+             new Program4();
+
+Example:
+    Program4
+    Program5
+
+
+6. Constructors
+---------------
+1. Constructor is a special type of method which is invoked implicitly at the
+   time of object creation.
+2. It is used to initialize objects.
+3. It is also used to initialize Instance variables by using default values.
+    Data-type                   Default values
+    -----------------------------------------
+    byte,short,int,long          0
+    float,double                 0.0
+    boolean                      false
+    char                          (1 space)
+    String                       null
+    -----------------------------------------
+4. Types of Constructors
+    |- Default Constructors [Compiler]
+        |- Zero Parameterized
+
+    |- User Defined Constructors [User]
+        |- Zero or more than Zero Parameterized
+
+5. Constructor-name and class-name should be same.
+6. Constructors are able to pass parameters.
+7. Constructor doesn't have any return-type.
+
+8. Examples
+    Program12
+
+    Program15: Difference b/w implicit and explicit calling
+    Program16: How constructor used to initialized IV.
+    Program17:
+    Program18:
+    Program21: 'this' keyword : It represent as current class object.
+                |- We can use 'this' keyword with
+                            |- variables
+                            |- methods
+                            |- constructors
+                                |- 'this' should be first statement in constructor
+    Program22:
+
+
+7. Blocks
+---------
+a. Blocks are used to write common logics.
+b. Types of blocks:
+        |- Instance Block
+            |- syntax:
+                        {
+                            //statements
+                        }
+            |- IB logics are common for all objects.
+            |- IB executes at the time of object creation.
+
+        |- Static Block
+            |- syntax:
+                        static{
+                            //statments
+                        }
+            |- SB logics are common for whole class.
+            |- SB execute at the time of .class file loaded.
+
+C. Example:
+    Program23
+    Program24
+
+8. Inner class
+--------------
+a. Class inside another class is known as Inner class.
+b. Non-static nested class is Inner class.
+Syntax:
+
+    class Outer
+    {
+        ....
+
+        class Inner
+        {
+            .....
+        }
+    }
+
+c. Inner class can access all the members/elements of Outer class.
+
+Examples:
+    Outer1
 
 
 
